@@ -13,7 +13,7 @@ _pure_set_default pure_color_dark black
 
 # Prompt
 _pure_set_default pure_symbol_prompt "❯"
-_pure_set_default pure_symbol_reverse_prompt "❮"  # used for VI mode
+_pure_set_default pure_symbol_reverse_prompt "❮" # used for VI mode
 _pure_set_default pure_color_prompt_on_error pure_color_danger
 _pure_set_default pure_color_prompt_on_success pure_color_success
 
@@ -64,3 +64,6 @@ _pure_set_default pure_reverse_prompt_symbol_in_vimode true
 
 # Title
 _pure_set_default pure_symbol_title_bar_separator "—"
+
+# Compact mode
+_pure_set_default pure_compact_mode false
